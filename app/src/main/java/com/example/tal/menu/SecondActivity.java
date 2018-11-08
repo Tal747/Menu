@@ -40,7 +40,6 @@ public class SecondActivity extends AppCompatActivity {
     }
 
     public void OC_btnPrvAct(View view) {
-        Intent t = new Intent(this, MainActivity.class);
-        startActivity(t);
+        this.finish();
     }
 }
